@@ -201,7 +201,6 @@ header .content-wrapper {
 }
 
 nav {
-  border: 1px solid yellow;
   text-align: center;
   height: 112px;
   width: 65%;
@@ -212,19 +211,35 @@ nav {
 }
 
 nav ul {
-  border: 1px solid black;
   margin: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   list-style: none;
   text-align: center;
 }
 
+nav ul li {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
 nav ul li a {
-  text-decoration: none;
+  margin: 0;
+  width: auto;
+  margin-right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
 }
 
 
