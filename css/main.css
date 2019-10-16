@@ -106,7 +106,7 @@ html {
 
 body {
   background-color: gray;
-  height: 2700px;
+  height: 2800px;
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   display; flex;
@@ -320,8 +320,7 @@ h1 {
   using colored borders*/
 
 .portfolio {
-  border: 1px solid yellow;
-  height: 898px;
+  height: 900px;
   width: 100%;
 }
 
@@ -337,7 +336,7 @@ h1 {
 }
 
 .portfolio-content {
-  height: 848px;
+  height: 850px;
   width: 100%;
 }
 
@@ -350,27 +349,67 @@ h1 {
 }
 
 .pic {
-  border: 1px solid red;
   margin-top: 22px;
   height: 180px;
   width: 75%;
 }
 
-.figure-one, .figure-two, .figure-three
+.figure-one, .figure-two, .figure-three,
 .figure-four {
   height: 100%;
   width: 100%;
-}
-
-.figure-one {
-  background-image: url("https://images.unsplash.com/photo-1570905705971-e6f513246752?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1066&q=80");
   background-size: cover;
   background-position: center;
 }
 
+.figure-one {
+  background-image: url("https://images.unsplash.com/photo-1570905705971-e6f513246752?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1066&q=80");
+}
 
+.figure-two {
+  background-image: url("https://images.unsplash.com/photo-1541690304182-f3a2987f7582?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
 
+.figure-three {
+  background-image: url("https://images.unsplash.com/photo-1545194445-1459d9fb0d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80");
+}
 
+.figure-four {
+  background-image: url("https://images.unsplash.com/photo-1443320407627-e8ac681dabe4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80");
+}
+
+footer, .content-wrapper-four, .footer-content,
+.social-media, .video, footer h2 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer {
+  height: 398px;
+  width: 100%;
+}
+
+.content-wrapper-four, .footer-content, .social-media {
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+}
+
+.content-wrapper-four {
+  height: inherit;
+  width: 70%;
+  border: 1px solid yellow;
+}
+
+footer h2 {
+  margin: 0;
+  border: 1px solid red;
+  height: 65px;
+  width: 100%;
+}
 
 
 
