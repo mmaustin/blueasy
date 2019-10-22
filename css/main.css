@@ -379,7 +379,7 @@ h1 {
 }
 
 footer, .content-wrapper-four, .footer-content,
-.social-media, .video, footer h2 {
+.social-media, .video, footer h2, .para {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -401,17 +401,49 @@ footer {
 .content-wrapper-four {
   height: inherit;
   width: 70%;
-  border: 1px solid yellow;
 }
 
 footer h2 {
   margin: 0;
-  border: 1px solid red;
   height: 65px;
   width: 100%;
 }
 
+.footer-content {
+  height: 333px;
+  width: 100%;
+  margin: 0;
+}
 
+.social-media {
+  height: 143px;
+  width: 100%;
+  margin: 0;
+}
+
+.para {
+  margin-top: 15px;
+  width: 100%;
+  height: 25px;
+}
+
+.video {
+  border: 1px solid yellow;
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
+  flex-flow: row wrap;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
