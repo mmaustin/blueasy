@@ -106,7 +106,7 @@ html {
 
 body {
   background-color: gray;
-  height: 2800px;
+  height: 3200px;
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   display; flex;
@@ -379,7 +379,7 @@ h1 {
 }
 
 footer, .content-wrapper-four, .footer-content,
-.social-media, .video, footer h2, .para {
+.social-media, .video-section, footer h2, .para {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -427,11 +427,18 @@ footer h2 {
   height: 25px;
 }
 
-.video {
+.video-section {
   border: 1px solid yellow;
+  margin: 0;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-container {
   width: 100%;
   position: relative;
-  padding-bottom: 100%;
+  padding-bottom: 56%;
   height: 0;
   overflow: hidden;
   flex-flow: row wrap;
@@ -441,7 +448,7 @@ iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 
