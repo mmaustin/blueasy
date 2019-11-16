@@ -294,7 +294,7 @@ h1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: column;
 }
 
 .service-box {
@@ -330,7 +330,7 @@ h1 {
 }
 
 .portfolio h2 {
-  margin-top: 25px;
+  margin-top: ;
   height: 25px;
   width: 100%;
 }
@@ -363,18 +363,22 @@ h1 {
 }
 
 .figure-one {
+  opacity: .1;
   background-image: url("https://images.unsplash.com/photo-1570905705971-e6f513246752?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1066&q=80");
 }
 
 .figure-two {
+  opacity: .25;
   background-image: url("https://images.unsplash.com/photo-1541690304182-f3a2987f7582?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
 }
 
 .figure-three {
+  opacity: .5;
   background-image: url("https://images.unsplash.com/photo-1545194445-1459d9fb0d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80");
 }
 
 .figure-four {
+  opacity: .75;
   background-image: url("https://images.unsplash.com/photo-1443320407627-e8ac681dabe4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80");
 }
 
