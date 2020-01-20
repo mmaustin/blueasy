@@ -127,13 +127,18 @@ body {
 }
 
 a {
-  color: #003399;
+  color: #ccc255;
   text-decoration: none;
+}
+
+.this {
+  color: blue;
 }
 
 p {
   text-align: center;
   line-height: 20px;
+  color: orange;
 }
 
 h1, h2, h3 {
@@ -141,7 +146,7 @@ h1, h2, h3 {
   font-family: 'poppins', sans-serif;
   text-align: center;
   line-height: auto;
-  color: #003366;
+  color: #503366;
 }
 
 /*------- Main -------*/
